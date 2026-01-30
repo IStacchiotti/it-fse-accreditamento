@@ -163,7 +163,7 @@
 							<effectiveTime value="20250603010309+0100"/>
 							<participant typeCode="LOC">
 								<participantRole classCode="SDLOC">
-									<id root="2.16.840.1.113883.2.9.4.1.1" extension="120202" assigningAuthorityName="Ministero della Salute"/>					
+									<id root="2.16.840.1.113883.2.9.4.1.1" extension="120202" assigningAuthorityName="Ministero della Salute"/>
 									<addr use="WP">
 										<country>100</country>
 										<state>120</state>
@@ -179,7 +179,7 @@
 									</playingEntity>	
 								</participantRole>
 							</participant>
-							<entryRelationship typeCode="COMP">
+							<entryRelationship typeCode="COMP" inversionInd="false"> 
 								<observation classCode="OBS" moodCode="EVN">
 									<code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" codeSystemName="ActCode" displayName="Assertion"/>
 									<text>
@@ -227,7 +227,7 @@
 					
 					Le proponiamo un appuntamento per il: 20 Luglio 2025 alle ore: 09:00 presso: la sede ASL Roma 2. La vaccinazione è gratuita e non occorre la prescrizione del medico di famiglia.
 					</text>
-					<entry>
+					<entry typeCode='COMP'>
 						<act classCode="ACT" moodCode="EVN"> 
 						<templateId root="2.16.840.1.113883.3.1937.777.63.10.679"/>
 							<code code="55107-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="External Documents"/>
