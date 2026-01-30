@@ -211,7 +211,7 @@
 								</participantRole>
 							</participant>
 							<entryRelationship typeCode="COMP">
-									<observation  moodCode="EVN">
+									<observation classCode='OBS' moodCode="EVN">
 										<code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" codeSystemName="ActCode" displayName ="Assertion"/>
 									</observation>
 							</entryRelationship>
