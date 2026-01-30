@@ -189,7 +189,7 @@
 									</entryRelationship>
 									<entryRelationship typeCode="COMP">
 										<observation classCode="OBS" moodCode="EVN">
-											<templateId root="2.16.840.1.113883.3.1937.777.63.10.164"/>
+											<templateId root="2.16.840.1.113883.3.1937.777.63.10.761"/>
 											<code code="104959-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Device fitting or implant status"/>
 											<value xsi:type="CD" code="LA9633-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Present: il dispositivo è ancora impiantato."/>
 										</observation>
@@ -198,7 +198,7 @@
 							</component>
 							<component>
 								<observation classCode="OBS" moodCode="EVN">
-									<templateId root="2.16.840.1.113883.3.1937.777.63.10.164"/>
+									<templateId root="2.16.840.1.113883.3.1937.777.63.10.758"/>
 										<code code="20228-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Lateralità"/>
 										<value xsi:type="CD" code="LAC" codeSystem="2.16.840.1.113883.5.1052" codeSystemName="Act Site" displayName="left anterior chest"/>
 								</observation>
